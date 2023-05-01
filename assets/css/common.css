@@ -1,0 +1,62 @@
+:root {
+  --accent-color: #34547a;
+  --accent-bg-color: #eeeff1;
+  --heading-color: #000000;
+  --text-color: #727272;
+  --accent-text-color: #ffffff;
+
+  font-size: 14px;
+  font-size: Roboto, sans-serif;
+}
+
+.main-heading,
+.sub-heading {
+  font-weight: 500;
+}
+
+.main-heading {
+  font-size: 3rem;
+  line-height: 1.45;
+}
+
+.sub-heading {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.text,
+.btn {
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.text {
+  color: var(--text-color);
+}
+
+.btn {
+  background-color: var(--accent-color);
+  color: var(--accent-text-color);
+  padding: 25px 40px;
+}
+
+/*
+breakpoints
+576px
+768px
+992px
+1200px
+1400px
+*/
+
+@media screen and (min-width: 576px) {
+  :root {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  :root {
+    font-size: 16px;
+  }
+}

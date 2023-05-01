@@ -6,7 +6,7 @@
   --accent-text-color: #ffffff;
 
   font-size: 14px;
-  font-size: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -41,7 +41,8 @@
 .btn {
   background-color: var(--accent-color);
   color: var(--accent-text-color);
-  padding: 25px 40px;
+  padding: 20px 30px;
+  border: none;
 }
 
 /*

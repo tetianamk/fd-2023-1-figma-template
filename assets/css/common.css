@@ -9,6 +9,10 @@
   font-size: Roboto, sans-serif;
 }
 
+.container {
+  margin: 0 auto;
+}
+
 .main-heading,
 .sub-heading {
   font-weight: 500;
@@ -53,10 +57,36 @@ breakpoints
   :root {
     font-size: 15px;
   }
+
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }  
 }
 
 @media screen and (min-width: 992px) {
   :root {
     font-size: 16px;
+  }
+
+  .container {
+    max-width: 950px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1130px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1330px;
   }
 }

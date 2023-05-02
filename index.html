@@ -4,10 +4,76 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Revalia&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <script defer src="assets/js/index.js"></script>
     <title>Document</title>
   </head>
   <body>
-    
+    <header class="header">
+      <div class="container header-flex">
+        <h1 class="logo">
+          <a href="#" class="logo-link">WD</a>
+        </h1>
+        <nav class="nav">
+          <button class="burger" id="burger">
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+          </button>
+
+          <ul class="nav-list" id="nav-list">
+            <li class="nav-list-item">
+              <a href="#" class="nav-link">ГЛАВНАЯ</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#" class="nav-link">ОБ АВТОРЕ</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#" class="nav-link">РАБОТЫ</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#" class="nav-link">ПРОЦЕСС</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#" class="nav-link">КОНТАКТЫ</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="greeting-section">
+      <div class="container grid">
+        <div class="greeting-img-wrapper">
+          <img src="assets/img/laptop.svg" alt="Laptop with code" class="img" />
+        </div>
+        <div class="greeting-info">
+          <h2 class="main-heading">Дизайн и верстка</h2>
+          <p class="text">
+            Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
+            латинице с начала XVI века.
+          </p>
+          <button class="btn">НАПИСАТЬ МНЕ</button>
+        </div>
+      </div>
+    </section>
+    <section class="about-me">
+      <div class="container">
+        <div class="about-me-info">
+          <h2 class="sub-heading">Обо мне</h2>
+          <p class="text">
+            Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
+            латинице с начала XVI века.
+          </p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

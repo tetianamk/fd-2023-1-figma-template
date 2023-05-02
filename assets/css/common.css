@@ -13,6 +13,12 @@
   margin: 0 auto;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1.5rem;
+}
+
 .main-heading,
 .sub-heading {
   font-weight: 500;
@@ -43,6 +49,12 @@
   color: var(--accent-text-color);
   padding: 20px 30px;
   border: none;
+}
+
+.img {
+  display: block;
+  width: 100%;
+  height: inherit;
 }
 
 /*
